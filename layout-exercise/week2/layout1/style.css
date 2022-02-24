@@ -7,6 +7,10 @@ body {
 	width: 50%;
 }
 
+.image {
+	width: 500px; 
+}
+
 .leftSide {
 	float: left;
 	width: 50%;
