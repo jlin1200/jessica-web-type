@@ -1,3 +1,7 @@
+body {
+	width: 100%;
+}
+
 .rightSide {
 	float: right;
 	width: 50%;
