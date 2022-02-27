@@ -1,7 +1,7 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
 
 h1 {
-	 font-family: 'Atkinson Hyperlegible', sans-serif;
+	 font-family: 'Courier Bold', sans-serif;
 	font-size:100px;
 	color: #08344F; 
 	text-align: center;
@@ -15,6 +15,7 @@ h3 {
 
 p {
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
+	 font-size: 20px;
 
 }
 body {
