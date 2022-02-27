@@ -24,4 +24,11 @@ body {
   color: #08344F;
 }
 
+.right {
+	text-align: right;
+/*  position: absolute;
+  right: 0px;*/
+  width: 300px;
+  padding: 10px;
+}
 
