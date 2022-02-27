@@ -1,4 +1,11 @@
-<h1 style="font-family:degular;">This is a heading</h1>
-p1 {
-  font-family: "Degular", Degular, serif;
+/*<h1> style="font-family:degular;" This is a heading</h1>*/
+
+h1 {
+	 font-family: "Degular", Degular, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
 }
+
