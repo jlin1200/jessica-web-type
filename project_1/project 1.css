@@ -50,21 +50,9 @@ body {
 }
 
 a:link {
-  color: red;
+  color: cyan;
+  text-decoration: none;
 }
 
-/* visited link */
-a:visited {
-  color: green;
-}
 
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
 
