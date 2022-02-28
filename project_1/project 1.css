@@ -32,3 +32,15 @@ body {
   padding: 10px;
 }
 
+.box {
+            display: flex;
+          }
+       <div class="box">
+          <div>One</div>
+          <div>Two</div>
+          <div>Three
+              <br>has
+              <br>extra
+              <br>text
+          </div>
+        </div>
