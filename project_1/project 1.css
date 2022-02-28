@@ -34,7 +34,7 @@ body {
 
 .flex-container {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-container > div {
