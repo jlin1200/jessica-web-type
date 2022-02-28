@@ -15,13 +15,21 @@ h3 {
 
 }
 
-p {
+p {margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
 	 font-size: 20px;
 
 }
 
-p1 {
+p1 { margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+ 
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
 	 font-size: 20px; 
 
@@ -48,3 +56,5 @@ body {
   margin: 5 px;
   padding: 20px;
 }
+
+
