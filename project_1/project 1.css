@@ -41,8 +41,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-    float: right;
-    object-position: 80% 100%
+  float: right;
 }
 
 .flex-container > div {
