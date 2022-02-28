@@ -51,6 +51,9 @@ body {
 a {color: #08344F; 
 
 }
+a:visited {
+  color: #08344F;
+}
 
 
 
