@@ -55,6 +55,10 @@ a:visited {
   color: #08344F;
 }
 
+/* selected link */
+a:active {
+  color: #08344F;
+}
 
 
 
