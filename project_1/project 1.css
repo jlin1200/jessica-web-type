@@ -1,5 +1,7 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
 
+
+
 h1 {
 	 font-family: courier-std, monospace;
 font-weight: 700;
@@ -49,7 +51,7 @@ body {
   padding: 20px;
 }
 
-a:link {
+a {
   text-decoration: none;
 }
 
