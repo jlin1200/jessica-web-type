@@ -14,8 +14,6 @@ font-style: normal;
 	text-align: center;
 }
 
-
-
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
@@ -24,7 +22,13 @@ h3 {
 
 }
 
-{position: absolute;
+p {
+	 font-family: 'Atkinson Hyperlegible', sans-serif;
+	 font-size: 20px;width: 700px; color: #08344F;
+
+
+
+/*{position: absolute;
 width: 1120px;
 height: 70px;
 left: 138px;
@@ -37,15 +41,7 @@ font-size: 26px;
 line-height: 29px;
 /* or 112% */}
 color: #08344F;}
-
-
-p {
-	 font-family: 'Atkinson Hyperlegible', sans-serif;
-	 font-size: 20px;width: 700px; color: #08344F;
-
-
-
-
+*/
 
 
 
