@@ -1,4 +1,12 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
+a {
+  color: #08344F;
+}
+a:hover {
+  color: hotpink;
+}
+
+
 body {
 background-color: #F9F6E9;
   color: #08344F; 
@@ -63,15 +71,8 @@ p {
 	font-style:regular, 
 	line height: 22px;}
 
-	p.thick {
-  font-weight: bold;
-}
-a {
-  color: #08344F;
-}
-a:hover {
-  color: hotpink;
-}
+
+
 
 
 
