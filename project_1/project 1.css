@@ -65,13 +65,15 @@ p {
 	.pg {height: 30%, width=30%}
 
 .sentence{position: absolute;
-width: 1120px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	 font-size: 20px;width: 700px; color: #08344F;
+/*width: 1120px;
 height: 70px;
 left: 138px;
 top: 695px;
-font-family: 'Atkinson Hyperlegible';
+font-family:'Atkinson Hyperlegible';
 font-size: 26px;
-line-height: 29px
+line-height: 29px*/
 }
 
 
