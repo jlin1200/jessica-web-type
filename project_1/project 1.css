@@ -71,11 +71,10 @@ left: 138px;
 top: 695px;
 font-family: 'Atkinson Hyperlegible';
 font-size: 26px;
-line-height: 29px;
-/* or 112% }
-color: #08344F;}
+line-height: 29px
+}
 
-}*/
+
 a {
   color: #08344F;
 }
