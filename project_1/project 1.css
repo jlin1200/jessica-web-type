@@ -6,18 +6,20 @@ font-style: normal;
 	font-size:100px;
 	color: #08344F; 
 	text-align: center;
+	width: 500px;
 }
 
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
 	 color: #08344F;
+	 width: 500px;
 
 }
 
 p {
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
-	 font-size: 20px;
+	 font-size: 20px;width: 500px
 
 }
 
