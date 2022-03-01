@@ -1,6 +1,5 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
 body {
-font-family: 'Atkinson Hyperlegible',
 background-color: #F9F6E9;
   color: #08344F; 
   margin: 60px;
@@ -25,7 +24,7 @@ h3 {
 
 }
 
-h4{position: absolute;
+{position: absolute;
 width: 1120px;
 height: 70px;
 left: 138px;
@@ -38,7 +37,6 @@ font-size: 26px;
 line-height: 29px;
 /* or 112% */}
 color: #08344F;}
-
 
 
 p {
