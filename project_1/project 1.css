@@ -26,7 +26,7 @@ p1 {
 
 
 body {
-  color: #08344F;
+  color: #08344F; background-color: #F9F6E9
 }
 
 .right {
@@ -48,9 +48,7 @@ body {
   padding: 20px;
 }
 
-body { 
-background-color: #F9F6E9; 
-}
+
 
 
 
