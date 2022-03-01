@@ -41,8 +41,8 @@ body {
 
 .flex-container {
   display: flex;
-  flex-direction: column;
-  float: left;
+  flex-direction: row;
+  align-items: left;
 }
 
 .flex-container > div {
@@ -50,7 +50,7 @@ body {
   padding: 20px;
 }
 
-.iterations {float: right;
+.iterations { 
 	width: 50%;}
 
 
