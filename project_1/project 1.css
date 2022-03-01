@@ -1,6 +1,6 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
 h1 {
-	 font-family: courier-std, monospace;
+	 font-family: 'Atkinson Hyperlegible', monospace;
 font-weight: 700;
 font-style: normal;
 	font-size:100px;
@@ -11,6 +11,7 @@ font-style: normal;
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
+	 color: #08344F;
 
 }
 
