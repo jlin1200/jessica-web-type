@@ -45,10 +45,10 @@ body {
   align-content: flex-start;
 }
 
-.flex-container > div {
+/*.flex-container > div {
   margin: 5 px;
   padding: 20px;
-}
+}*/
 
 .iterations { 
 	width: 50%;}
