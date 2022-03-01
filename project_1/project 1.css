@@ -19,7 +19,6 @@ h3 {
 	 font-size:64px;
 	 color: #08344F;
 	 width: 500px;
-
 }
 
 
@@ -27,11 +26,6 @@ h3 {
 p {
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
 	 font-size: 20px;width: 700px; color: #08344F;
-
-
-
-
-
 
 
 .right {
@@ -64,10 +58,10 @@ p {
 	.BR {height: 30%, width=30%}
 	.pg {height: 30%, width=30%}
 
+
 a {
   color: #08344F;
 }
-
 a:hover {
   color: hotpink;
 }
