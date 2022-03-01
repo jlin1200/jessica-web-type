@@ -61,8 +61,8 @@ p {
 .colophon {font-family:Atkinson Hyperlegible,serif;
 	font-size: 16px;
 	font-style:regular, 
-	>
-
+	line height: 22px;}
+	
 a {
   color: #08344F;
 }
