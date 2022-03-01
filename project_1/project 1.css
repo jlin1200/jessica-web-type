@@ -1,4 +1,9 @@
 /*<h1> style="font-family:degular;" This is a heading</h1>*/
+body {
+  color: #08344F; 
+  margin: 20px;
+}
+
 h1 {
 	 font-family: 'Atkinson Hyperlegible', monospace;
 font-weight: 700;
@@ -24,10 +29,7 @@ p {
 
 
 
-body {
-  color: #08344F; 
-  
-}
+
 
 .right {
 	text-align: right;
