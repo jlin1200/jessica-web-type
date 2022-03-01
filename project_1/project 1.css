@@ -22,13 +22,11 @@ p {
 
 }
 
-p1 {
-	 font-family: 'Atkinson Hyperlegible', sans-serif;
-	 font-size: 20px; color: #08344F;
 
 
 body {
   color: #08344F; 
+  
 }
 
 .right {
@@ -39,22 +37,22 @@ body {
   padding: 10px;
 }
 
-.flex-container {
+/*.flex-container {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
 }
 
-/*.flex-container > div {
+.flex-container > div {
   margin: 5 px;
   padding: 20px;
-}*/
+}
 
 .images {display: flex;
   flex-direction: column;
   align-content: flex-start;
 }
-
+*/
 .iterations { 
 	width: 50%;}
 
