@@ -1,3 +1,5 @@
+.images2 {float: right;}
+
 .sentence {
 font-family: Atkinson Hyperlegible;
 font-style: normal;
@@ -77,7 +79,6 @@ right {
 
 
 
-
 .iterations { 
 	width: 50%;}
 
@@ -89,6 +90,8 @@ right {
 	font-size: 16px;
 	font-style:regular, 
 	line height: 22px;}
+
+
 
 
 
