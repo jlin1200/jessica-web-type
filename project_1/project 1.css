@@ -84,7 +84,11 @@ right {
 }
 */
 
-.first{display:center}
+.first{position: absolute;
+width: 992px;
+height: 570px;
+left: 224px;
+top: 135px;}
 
 .iterations { 
 	width: 50%;}
