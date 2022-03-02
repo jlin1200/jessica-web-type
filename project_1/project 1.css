@@ -50,6 +50,9 @@ h3 {
 }
 
 
+p.thick {font-family:'Atkinson Hyperlegible',serif;
+  font-weight: bold;
+}
 
 p {
 	 font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -102,6 +105,7 @@ right {
 	font-size: 16px;
 	font-style:regular, 
 	line height: 22px;}
+
 
 
 
