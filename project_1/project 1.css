@@ -1,4 +1,7 @@
 
+.rightside{
+	width: 80%;
+height:80%;}
 
 .big{
 	left:241px;
@@ -93,9 +96,7 @@ right {
 	.pg {height: 30%, width=30%}
 
 
-.rightside{
-	width: 80%;
-height:80%;}
+
 
 
 .colophon {font-family:'Atkinson Hyperlegible',serif;
