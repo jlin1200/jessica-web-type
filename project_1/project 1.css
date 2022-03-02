@@ -1,7 +1,8 @@
 
 
-.images2 {float: right;
-	width: 20%; height:auto; }
+.images2 {
+	width:-20%; height:auto;
+	 }
 
 .sentence {
 font-family: Atkinson Hyperlegible;
