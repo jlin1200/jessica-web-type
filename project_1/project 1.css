@@ -1,4 +1,7 @@
 
+.images2 {float: right;
+height: 30%, width=30%}
+
 
 .sentence {
 font-family: Atkinson Hyperlegible;
@@ -85,8 +88,7 @@ right {
 	.BR {height: 30%, width=30%}
 	.pg {height: 30%, width=30%}
 
-.images2 {float: right;
-height: 30%, width=30%}
+
 
 .colophon {font-family:'Atkinson Hyperlegible',serif;
 	font-size: 16px;
