@@ -10,7 +10,8 @@ a:hover {
 body {
 background-color: #F9F6E9;
   color: #08344F; 
-  margin: 60px;
+  margin: 
+780px;
 }
 
 h1 {
@@ -42,7 +43,7 @@ right {
 /*  position: absolute;
   right: 0px;*/
   width: 300px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .sentence {
