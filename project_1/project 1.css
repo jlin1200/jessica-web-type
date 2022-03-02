@@ -1,4 +1,8 @@
 
+.first{
+display:flex;
+flex-direction: row;
+align-content: flex-start;}
 
 .big{
 	left:241px;
@@ -84,10 +88,7 @@ right {
 }
 */
 
-.first{
-display:flex;
-flex-direction: row;
-align-content: flex-start;}
+
 
 .iterations { 
 	width: 50%;}
