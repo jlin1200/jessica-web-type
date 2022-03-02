@@ -1,8 +1,6 @@
 
 .first{
-display:flex;
-flex-direction:row;
-align-content:flex-start;}
+display:flex;}
 
 .big{
 	left:241px;
