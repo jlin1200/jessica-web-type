@@ -93,7 +93,8 @@ right {
 	.pg {height: 30%, width=30%}
 
 
-.rightside{width: 800%;
+.rightside{
+	width: 100%;
 height:auto;}
 
 
