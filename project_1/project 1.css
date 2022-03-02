@@ -63,11 +63,7 @@ right {
 */
 
 .sentence {
-position: absolute;
-width: 1120px;
-height: 70px;
-left: 138px;
-top: 695px;
+position: center;
 font-family: Atkinson Hyperlegible;
 font-style: normal;
 font-weight: normal;
