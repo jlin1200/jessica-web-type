@@ -1,6 +1,6 @@
 
 .D {text-align:center;
-	font-size:210px;
+	font-size:200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   }
@@ -110,7 +110,6 @@ h3 {
 }
 
 h4{font-family: 'Atkinson Hyperlegible', sans-serif; 
-font-style: normal;
 	 font-size:64px;
 	 color: white;
 	 line-height: 80px;
@@ -119,15 +118,14 @@ font-style: normal;
 	 }
 
 h5{font-family: 'Atkinson Hyperlegible', sans-serif; 
-	 font-style:bold;
 	 font-size:64px;
+	 font-style: normal;
 	 color: white;
-	 line-height: 70px;
-	 margin: 500px;
+	 line-height: 80px;
+	 margin: 0;
 	 text-align: center;
 	 }
 h6 {font-family: 'Atkinson Hyperlegible', sans-serif; 
-font-style: bold;
 	 font-size:64px;
 	 font-style: bold;
 	 color: white;
