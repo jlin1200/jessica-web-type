@@ -100,8 +100,8 @@ p {
 	filter: blur(2px);
 	animation-name: example;
 	 animation-duration: 4s;
-
 }
+
 
 @keyframes example {
   0%   {filter: blur (5px);}
@@ -130,7 +130,7 @@ p {
 	font-size: 120px;
 	font-family: 'Atkinson Hyperlegible', sans-serif
   font-weight: bold;
-  line-height: 105px;
+  line-height: 3;
    letter-spacing:0.2em;
   }
 
@@ -139,7 +139,7 @@ p {
 	font-size: 105px;
 	font-family: 'Atkinson Hyperlegible', sans-serif
   font-weight: bold;
-  line-height: 130px;
+  line-height: 2;
   letter-spacing:0.1em;
   }
 
@@ -148,14 +148,14 @@ p {
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif
   font-weight: bold;
-  line-height: 110px;
+  line-height: 1;
   letter-spacing: 0.3em;
   }
   .fourth {text-align: center;
 	font-size: 60px;
 	font-family: 'Atkinson Hyperlegible', sans-serif
   font-weight: bold;
-  line-height: 100px;
+  line-height: 1;
   letter-spacing: 0.3em;
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
