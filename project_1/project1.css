@@ -130,7 +130,7 @@ p {
 	font-size: 120px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 3em;
+  line-height: 3px;
    letter-spacing:0.2em;
   }
 
@@ -139,23 +139,24 @@ p {
 	font-size: 105px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 2em;
+  line-height: 2px;
   letter-spacing:0.1em;
   }
 
-    .third {
+   .third {
 	text-align: center;
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 2em;
+  line-height: 2px;
   letter-spacing: 0.3em;
   }
+
   .fourth {text-align: center;
 	font-size: 100px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1px;
   letter-spacing: 0.3em;
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
