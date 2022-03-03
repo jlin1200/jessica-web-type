@@ -95,11 +95,10 @@ p {
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-/*.blurtext{
+.blurtext{
 	color: white;
 	filter: blur(2px);
-	animation-name: example;
-	 animation-duration: 4s;
+	animation:example 4s infinite;
 
 }
 
@@ -108,7 +107,7 @@ p {
   25%  {filter: blur(2px)}
   50%  {filter: blur(1px)
   100% {filter: blur(0px)}
-}*/
+}
 
 .testing-section{
 	display: flex;
