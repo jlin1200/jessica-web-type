@@ -95,19 +95,20 @@ p {
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-.blurtext{
+/*.blurtext{
 	color: white;
 	filter: blur(2px);
-	animation:blur 4s infinite;
+	animation-name: example;
+	 animation-duration: 4s;
 
 }
 
-@keyframes blur {
+@keyframes example {
   0%   {filter: blur (5px);}
   25%  {filter: blur(2px)}
   50%  {filter: blur(1px)
   100% {filter: blur(0px)}
-}
+}*/
 
 .testing-section{
 	display: flex;
@@ -160,7 +161,7 @@ p {
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
    text-decoration-style:thick;
-  /* text-decoration-thickness:15px;*/
+   text-decoration-thickness:15px;
 }
 /*
 
@@ -211,4 +212,6 @@ right {
 	font-style:regular, 
 	line height: 22px;}
 
+
+ 
 
