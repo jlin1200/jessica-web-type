@@ -160,9 +160,9 @@ p {
 .blurtext{
 	color: white;
 	animation-name: example;
-	 animation-duration: 10s;
+	 animation-duration: 25s;
 
-}
+} 
 
 @keyframes example {
   0%   {filter: blur (8px);}
