@@ -98,11 +98,11 @@ p {
 .blurtext{
 	color: white;
 	filter: blur(2px);
-	animation:example 4s infinite;
+	animation:blur 4s infinite;
 
 }
 
-@keyframes example {
+@keyframes blur {
   0%   {filter: blur (5px);}
   25%  {filter: blur(2px)}
   50%  {filter: blur(1px)
