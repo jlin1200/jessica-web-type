@@ -95,20 +95,20 @@ p {
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-/*.blurtext{
+.blurtext{
 	color: white;
 	filter: blur(2px);
 	animation-name: example;
 	 animation-duration: 4s;
-}
 
+}
 
 @keyframes example {
   0%   {filter: blur (5px);}
   25%  {filter: blur(2px)}
   50%  {filter: blur(1px)
   100% {filter: blur(0px)}
-}*/
+}
 
 .testing-section{
 	display: flex;
@@ -128,41 +128,39 @@ p {
 .first {
 	text-align: center;
 	font-size: 120px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 3;
+  line-height: 3em;
    letter-spacing:0.2em;
   }
 
   .second {
 	text-align: center;
 	font-size: 105px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 2;
+  line-height: 2em;
   letter-spacing:0.1em;
   }
 
     .third {
 	text-align: center;
 	font-size: 80px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 1;
+  line-height: 2em;
   letter-spacing: 0.3em;
   }
   .fourth {text-align: center;
 	font-size: 60px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1em;
   letter-spacing: 0.3em;
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
    text-decoration-style:thick;
    text-decoration-thickness:15px;
-
-   ;
 
 
 }
