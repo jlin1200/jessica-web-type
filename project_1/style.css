@@ -1,10 +1,21 @@
-.first {
-	text-align: center;
-	font-size: 120px;
+
+.D {text-align:center;
+	font-size:200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 2em;
-   letter-spacing:0.2em;
+  line-height: 1em;
+   letter-spacing:3em;
+  }
+
+
+
+.first {
+	text-align: center;
+	font-size:180px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  line-height: 1em;
+   letter-spacing:3em;
   }
 
   .second {
@@ -110,10 +121,19 @@ h4{font-family: 'Atkinson Hyperlegible', sans-serif;
 h5{font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
 	 color: white;
-	 line-height: 130px;
+	 line-height: 80px;
 	 margin: 0;
 	 text-align: center;
 	 }
+h6 {font-family: 'Atkinson Hyperlegible', sans-serif; 
+	 font-size:64px;
+	 font-style: bold;
+	 color: white;
+	 line-height: 80px;
+	 margin: 0;
+	 text-align: center;
+	 }
+
 
 .thick {font-family:'Atkinson Hyperlegible',serif;
   font-weight: bold; 
@@ -133,20 +153,19 @@ p {
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-/*.blurtext{
+.blurtext{
 	color: white;
-	filter: blur(2px);
 	animation-name: example;
-	 animation-duration: 4s;
+	 animation-duration: 10s;
 
 }
 
 @keyframes example {
-  0%   {filter: blur (5px);}
-  25%  {filter: blur(2px)}
-  50%  {filter: blur(1px)
+  0%   {filter: blur (8px);}
+  25%  {filter: blur(5px)}
+  50%  {filter: blur(3px)
   100% {filter: blur(0px)}
-}*/
+}
 
 .testing-section{
 	display: flex;
@@ -195,6 +214,8 @@ right {
   align-content: flex-start;
 }
 */
+
+
 
 
 
