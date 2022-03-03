@@ -101,7 +101,6 @@ font-style: normal;
 
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
-	 font-style: normal;
 	 font-size:64px;
 	 color: #08344F;
 	 width: 500px;
@@ -110,21 +109,25 @@ h3 {
 }
 
 h4{font-family: 'Atkinson Hyperlegible', sans-serif; 
+font-style: italic;
 	 font-size:64px;
 	 color: white;
-	 line-height: 80px;
-	 margin: 0;
+	 line-height: 70px;
+	  margin: 0;
 	 text-align: center;
+	 letter-spacing: .07em;
 	 }
 
 h5{font-family: 'Atkinson Hyperlegible', sans-serif; 
+font-style: italic;
 	 font-size:64px;
-	 font-style: normal;
 	 color: white;
 	 line-height: 80px;
-	 margin: 0;
+	  margin: 0;
 	 text-align: center;
+	 letter-spacing: .07em
 	 }
+
 h6 {font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
 	 font-style: bold;
@@ -132,6 +135,7 @@ h6 {font-family: 'Atkinson Hyperlegible', sans-serif;
 	 line-height: 80px;
 	 margin: 0;
 	 text-align: center;
+	 letter-spacing: .07em;
 	 }
 
 
