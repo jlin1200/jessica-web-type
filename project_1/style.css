@@ -1,10 +1,8 @@
 
 .D {text-align:center;
-	font-size:200px;
+	font-size:210px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 1em;
-   letter-spacing:3em;
   }
 
 
@@ -103,6 +101,7 @@ font-style: normal;
 
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
+	 font-style: normal;
 	 font-size:64px;
 	 color: #08344F;
 	 width: 500px;
@@ -111,6 +110,7 @@ h3 {
 }
 
 h4{font-family: 'Atkinson Hyperlegible', sans-serif; 
+font-style: normal;
 	 font-size:64px;
 	 color: white;
 	 line-height: 80px;
@@ -119,13 +119,15 @@ h4{font-family: 'Atkinson Hyperlegible', sans-serif;
 	 }
 
 h5{font-family: 'Atkinson Hyperlegible', sans-serif; 
+	 font-style:bold;
 	 font-size:64px;
 	 color: white;
-	 line-height: 80px;
-	 margin: 0;
+	 line-height: 70px;
+	 margin: 500px;
 	 text-align: center;
 	 }
 h6 {font-family: 'Atkinson Hyperlegible', sans-serif; 
+font-style: bold;
 	 font-size:64px;
 	 font-style: bold;
 	 color: white;
@@ -168,7 +170,8 @@ p {
 }
 
 .testing-section{
-	display: flex;
+	display:flex;
+	max-width: 80%
 }
 
 .testing{
