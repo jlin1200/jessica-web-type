@@ -145,7 +145,7 @@ p {
 
    .third {
 	text-align: center;
-	/*font-size: 80px;*/
+	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 2px;
@@ -153,7 +153,7 @@ p {
   }
 
   .fourth {text-align: center;
-	/*font-size: 100px;*/
+	font-size: 100px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 1px;
@@ -161,7 +161,7 @@ p {
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
    text-decoration-style:thick;
-   text-decoration-thickness:15px;
+  /* text-decoration-thickness:15px;*/
 }
 /*
 
