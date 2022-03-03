@@ -128,7 +128,7 @@ p {
 .first {
 	text-align: center;
 	font-size: 120px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 3em;
    letter-spacing:0.2em;
@@ -137,7 +137,7 @@ p {
   .second {
 	text-align: center;
 	font-size: 105px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 2em;
   letter-spacing:0.1em;
@@ -146,14 +146,14 @@ p {
     .third {
 	text-align: center;
 	font-size: 80px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 2em;
   letter-spacing: 0.3em;
   }
   .fourth {text-align: center;
 	font-size: 100px;
-	font-family: 'Atkinson Hyperlegible', sans-serif
+	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   line-height: 1em;
   letter-spacing: 0.3em;
