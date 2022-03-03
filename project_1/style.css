@@ -3,7 +3,7 @@
 	font-size: 120px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 110px;
+  line-height: 2em;
    letter-spacing:0.2em;
   }
 
@@ -12,7 +12,7 @@
 	font-size: 105px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 110px;
+  line-height: 1em;
   letter-spacing:0.1em;
   }
 
@@ -21,7 +21,7 @@
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 1em;
   letter-spacing: 0.3em;
   }
 
@@ -29,7 +29,7 @@
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 1em;
   letter-spacing: 0.3em;
     text-decoration-line:underline;
  text-decoration-color:#CF3136;
