@@ -1,0 +1,47 @@
+
+.body {
+  margin: auto;
+}
+
+h1 {font-family: gimlet-display, 
+	serif;
+	font-size:10vw;
+	 
+
+}
+
+li {
+	font-family:gimlet-display, 
+	regular;
+	font-size:2vw;
+	 
+
+}
+i {font-family:gimlet-display, 
+	regular;
+	font-size:2vw;
+	 
+
+}
+
+p {font-family:gimlet-display, 
+	regular;
+	font-size:1.5vw;
+	 
+
+}
+
+.container {
+  width: 33%;
+}
+
+
+.figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){ 
+  .container{
+    width: 100%;
+  }
+} 
