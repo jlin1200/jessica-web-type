@@ -1,0 +1,51 @@
+
+.body {
+  margin: 25px 50px 75px 100px;
+  display: inline-grid
+}
+
+.columnleft {
+  margin: 25px 50px 75px 100px;
+}
+
+
+
+h1 {font-family: gimlet-display, 
+	serif;
+	font-size:5vw;
+	 
+
+}
+
+li {
+	font-family:gimlet-display, 
+	regular;
+	font-size:2vw;
+	 
+
+}
+i {font-family:gimlet-display, 
+	regular;
+	font-size:2vw;
+	 
+
+}
+
+p {font-family:gimlet-display, 
+	regular;
+	font-size:1.5vw;
+	 
+
+}
+
+
+
+.figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){ 
+  .container{
+    width: 100%;
+  }
+} 
