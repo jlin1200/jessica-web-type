@@ -1,11 +1,17 @@
 
 .body {
-  margin: auto;
+  margin: 25px 50px 75px 100px;
 }
+
+.columnleft {
+  margin: 25px 50px 75px 100px;
+}
+
+
 
 h1 {font-family: gimlet-display, 
 	serif;
-	font-size:10vw;
+	font-size:5vw;
 	 
 
 }
