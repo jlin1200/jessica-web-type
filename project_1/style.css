@@ -1,11 +1,64 @@
 
-.D {text-align:center;
-	font-size:200px;
+
+.container{text-align: center; 
+}
+
+.sub {font-size:72px;
+}
+
+.problem1{font-size:60px;
+}
+
+.nav {
+	border: 3px solid black;
+	display: list-item;
+	list-style-type: none;
+	/*display:flex;
+	 align-content: flex-start;*/
+	flex:row;
+ line-height: 2em;
+	font-size: 60px;
+
+}
+
+.D {font-size:400px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: bold;
   }
 
+  .ES {font-size:250px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  }
 
+ .IN {font-size:200px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold; 
+  }
+
+.ING {font-size:150px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  }
+
+.images {text-align:center;}
+
+.hero {
+	margin-top: 10px; 
+	text-align:center;
+letter-spacing: 5em;
+line-height: 10em}
+
+.large{
+	 font-family: 'Atkinson Hyperlegible', sans-serif;
+	 font-style: normal;
+	 font-size: 85px;
+}
+
+.regular{
+	font-family: 'Helvetica', sans-serif;
+	 font-size: 80px;
+	}
 
 .first {
 	text-align: center;
@@ -15,6 +68,22 @@
   line-height: 1em;
    letter-spacing:3em;
   }
+
+
+.atypeface {font-size:105px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+   letter-spacing:.5em;
+  }
+
+  .forthe {font-size:100px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+   letter-spacing:.5em;
+
+  }
+
+
 
   .second {
 	text-align: center;
@@ -101,7 +170,7 @@ font-style: normal;
 
 h3 {
 	 font-family: 'Atkinson Hyperlegible', sans-serif; 
-	 font-size:64px;
+	 font-size:44px;
 	 color: #08344F;
 	 width: 500px;
 	 line-height: 70px;
@@ -187,6 +256,10 @@ p {
 .big{
 	width: 100%;
 }
+
+
+
+
 .
 /*
 
