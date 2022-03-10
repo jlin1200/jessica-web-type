@@ -68,9 +68,7 @@ figcaption {
   	text-align: center;
   	font-size:250px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
-  	font-weight: bold;
-  	word-spacing: 1em;
- 
+  	font-weight: bold; 
   }
 
  .IN {
@@ -161,7 +159,7 @@ figcaption {
 	font-size: 105px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-  	line-height: 1em;
+  	line-height: 2em;
   	letter-spacing:0.1em;
   }
 
@@ -170,8 +168,9 @@ figcaption {
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-  	line-height: 1em;
+  	line-height: 2em;
   	letter-spacing: 0.3em;
+
   }
 
   .fourth {
@@ -179,7 +178,7 @@ figcaption {
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-  	line-height: 1em;
+  	line-height: 2em;
   	letter-spacing: 0.3em;
     text-decoration-line:underline;
  	text-decoration-color:#CF3136;
