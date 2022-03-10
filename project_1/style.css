@@ -1,9 +1,10 @@
 
 
 .collateral {
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	display: flex;
 	flex-direction: row;
+	max-width: 700px;
 	}
 
 figcaption {
@@ -24,56 +25,36 @@ figcaption {
 }
 
 .nav {
+	word-wrap: break-word;
 	vertical-align: baseline;
 	flex-direction: row;
-	border: 3px solid black;
-}
+/*	border: 3px solid black;
+*/}
 
-.pls {vertical-align: baseline;
+.pls {
+	vertical-align: baseline;
 	float:left;
 	font-size:60px;
-	border: 3px solid black;
-}	
+/*	border: 3px solid black;
+*/}	
 
 
-.navchild {vertical-align: baseline;
+.navchild {
+	vertical-align: baseline;
 	float:right;
 	font-size:60px;
-	border: 1px solid black;
-
+/*	border: 1px solid black;
+*/
 }
 
 .D {vertical-align: baseline;
 	text-align: center;
 	float:center;
 	font-size:60px;
-	border: 3px solid black;
-	
+/*	border: 3px solid black;
+*/	
 }
 
-
-
-
-.nav2 {vertical-align: baseline;
-	float: right;
-	z-index: -1;
-	border: 3px solid black;
-	float:right;
-	/*display: list-item;
-	list-style-type: none;*/
-	/*display:flex;
-	 align-content: flex-start;*/
-	flex:row;
- 	line-height: 2em;
-	font-size: 60px;
-}
-
-.{
-	font-size:400px;
-	font-family: 'Atkinson Hyperlegible', sans-serif;
-  	font-weight: bold;
-  	text-align: center;
-  }
 
 .D {
 	font-size:400px;
@@ -83,19 +64,20 @@ figcaption {
   }
 
   .ES { 
+  	letter-spacing:1em;
   	text-align: center;
   	font-size:250px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-  	word-spacing: 3em;
+  	word-spacing: 1em;
  
   }
 
  .IN {
+ 	letter-spacing:.7em;
  	font-size:200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold; 
-  	word-spacing: 3em;
   }
 
 
@@ -103,14 +85,14 @@ figcaption {
 	font-size:150px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-  	word-spacing: 4em;
+  	letter-spacing:.5em;
   }
 
 .br {
-	width: 50%;
+	max-width: 50%;
 	width: center;
-	border: 1px solid black;
-	display: flex;
+/*	border: 1px solid black;
+*/	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
 	align-items: center;
@@ -119,9 +101,9 @@ figcaption {
 }
 
 .images2{
-	width: 50%;
+	max-width: 50%;
 	width: center;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
@@ -159,10 +141,11 @@ figcaption {
   }
 
 
-.atypeface {font-size:105px;
+.atypeface {
+	font-size:105px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
-   letter-spacing:.5em;
+   	letter-spacing:.5em;
   }
 
   .forthe {font-size:100px;
@@ -191,7 +174,8 @@ figcaption {
   	letter-spacing: 0.3em;
   }
 
-  .fourth {text-align: center;
+  .fourth {
+  	text-align: center;
 	font-size: 80px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
@@ -211,11 +195,11 @@ figcaption {
 
 
 .sentence {
-font-family: Atkinson Hyperlegible;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 29px;
+	font-family: Atkinson Hyperlegible;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 29px;
 }
 
 
@@ -234,8 +218,8 @@ body {
 }
 
 section{
-	border: 3px solid black;
-	margin-top: 30px;
+/*	border: 3px solid black;
+*/	margin-top: 30px;
 }
 
 h1 {
@@ -256,8 +240,9 @@ h3 {
 	 margin: 0;
 }
 
-h4{font-family: 'Atkinson Hyperlegible', sans-serif; 
-font-style: italic;
+h4{
+	font-family: 'Atkinson Hyperlegible', sans-serif; 
+	font-style: italic;
 	 font-size:64px;
 	 color: white;
 	 line-height: 70px;
@@ -266,7 +251,8 @@ font-style: italic;
 	 letter-spacing: .07em;
 	 }
 
-h5{font-family: 'Atkinson Hyperlegible', sans-serif; 
+h5{
+	font-family: 'Atkinson Hyperlegible', sans-serif; 
 	font-style: italic;
 	 font-size:64px;
 	 color: white;
@@ -276,7 +262,8 @@ h5{font-family: 'Atkinson Hyperlegible', sans-serif;
 	 letter-spacing: .07em
 	 }
 
-h6 {font-family: 'Atkinson Hyperlegible', sans-serif; 
+h6 {
+	font-family: 'Atkinson Hyperlegible', sans-serif; 
 	 font-size:64px;
 	 font-style: bold;
 	 color: white;
@@ -287,8 +274,9 @@ h6 {font-family: 'Atkinson Hyperlegible', sans-serif;
 	 }
 
 
-.thick {font-family:'Atkinson Hyperlegible',serif;
-  font-weight: bold; 
+.thick {
+	font-family:'Atkinson Hyperlegible',serif;
+  	font-weight: bold; 
 }
 
 p { 
@@ -308,6 +296,7 @@ p {
 
 .blurtext{
 	color: white;
+	word-wrap: break-word;
 	animation-name: example;
 	 animation-duration: 10s;
 	 animation-iteration-count: infinite;
@@ -347,12 +336,11 @@ p {
 	line height: 22px;}
 
 @media screen and (max-width: 480px){ 
-  .body{
-    width: 100%;
+  .body{ width: 100%;
   }
-  .section{width: 100%}
-
-.
+  .section{width: 100%
+  }
+	
 /*
 
 right {
