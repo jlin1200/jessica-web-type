@@ -1,11 +1,18 @@
-/*<h1> style="font-family:degular;" This is a heading</h1>*/
+@font-face{
+	font-family:"mywebfont";
+	src: url('mywebfont.woff2') format('woff2');
+}
 
-h1 {
-	 font-family: "Degular", Degular, serif;
+p{
+	font-family: mywebfont, san-serif;
+}
 
+h1 {font-family: "Degular", Degular, serif;
 font-weight: 400;
-
+color: blue;
 font-style: normal;
 
 }
+
+
 

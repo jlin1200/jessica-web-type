@@ -1,0 +1,11 @@
+@font-face{
+	font-family:"mod";
+	src: url("mod.woff2") format("woff2");
+
+}
+
+body{
+	font-size: 50px;
+	font-family: mod;
+	color: blue;
+}
