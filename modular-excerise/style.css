@@ -1,7 +1,15 @@
 @font-face{
 	font-family:"mod";
 	src: url("mod.woff2") format("woff2");
+/*	font-family:"insects";
+	src: url("insects.woff2") format("woff2");*/
 
+
+}
+
+@font-face{
+		font-family:"insects";
+	src: url("insects.woff2") format("woff2");
 }
 
 body{
@@ -9,3 +17,4 @@ body{
 	font-family: mod;
 	color: blue;
 }
+
