@@ -4,6 +4,12 @@
 
 }
 
+@font-face{
+	font-family:"solid";
+	src: url("solid.woff2") format("woff2");
+
+}
+
 body{
 	font-size: 50px;
 	font-family: blinds;
