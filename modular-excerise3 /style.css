@@ -1,0 +1,45 @@
+@font-face{
+	font-family:"test";
+	src: url("test.woff2") format("woff2");
+
+}
+
+
+body{
+	font-size: 50px;
+	font-family: test;
+	text-transform: uppercase;
+	font-variation-settings: "wght" 300;
+	color: blue;
+	animation: width; 
+	animation: sizechange 3.5s infinite alternate;
+    transition: all 1s;
+}
+
+.test-regular-thin {
+    font-variation-settings: "wght" 100;
+}
+
+.thin {
+    font-variation-settings: "wght" 7000;
+}
+
+.regular {
+	font-family: "test";
+    font-variation-settings: "wght" 300;
+}
+
+.heavy {
+    font-variation-settings: "wght" 900;
+}
+
+
+@keyframes sizechange{
+	0% {
+    font-variation-settings: 'wght' 100;
+}
+
+100% {
+    font-variation-settings: 'wght' 900;
+}
+	
