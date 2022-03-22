@@ -1,0 +1,39 @@
+@font-face{
+	font-family:"blinds";
+	src: url("blinds.woff2") format("woff2");
+
+}
+
+
+body{
+	font-size: 50px;
+	font-family: blinds;
+	text-transform: uppercase;
+	letter-spacing: 2rem;
+	font-variation-settings: "wght" 300;
+	color: blue;
+	animation: width; 
+	animation: sizechange 3.5s infinite alternate;
+    transition: all 1s;
+}
+
+.regular {
+	font-family: "blinds";
+    font-variation-settings: "wght" 100;
+}
+
+.heavy {
+    font-variation-settings: "wght" 400;
+}
+
+
+
+@keyframes sizechange{
+	0% {
+    font-variation-settings: 'wght' 100;
+}
+
+100% {
+    font-variation-settings: 'wght' 400;
+}
+	
