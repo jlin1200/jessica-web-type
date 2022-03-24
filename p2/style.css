@@ -24,6 +24,14 @@ body{
     transition: all 1s;
 }
 
+.Div{font-size: 50px;
+	font-family: blinds;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-variation-settings: "wght" 100;
+	color: blue;
+}
+
 
 
 
