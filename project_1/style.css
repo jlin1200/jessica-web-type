@@ -1,10 +1,15 @@
 
-
+@media screen and (min-width:500px) {
 .collateral {
 /*	border: 1px solid black;*/
 	display: flex;
 	flex-direction: row;
 	max-width: 700px;
+	}
+
+.collateralchild {
+ 	max-width: 300px;
+  	max-height: auto;
 	}
 
 figcaption {
@@ -331,13 +336,20 @@ p {
 
 .colophon {font-family:'Atkinson Hyperlegible',serif;
 	font-size: 16px;
-	font-style:regular, 
-	line height: 22px;}
+	line-height: 22px;}
 
-@media screen and (max-width: 480px){ 
+
+}
+
+@media screen and (max-width: 500px){ 
   .body{ width: 100%;
   }
-  .section{width: 100%
+  .section{width: 100%;
+  }
+  .collateral{
+	flex-direction: column;
+
+  }
   }
 	
 /*
