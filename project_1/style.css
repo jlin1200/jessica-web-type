@@ -1,5 +1,9 @@
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:550px) {
+html {
+  scroll-behavior: smooth;
+}
+
 .collateral {
 /*	border: 1px solid black;*/
 	display: flex;
@@ -9,7 +13,7 @@
 
 .collateralchild {
  	max-width: 300px;
-  	max-height: auto;
+height: auto;
 	}
 
 figcaption {
@@ -32,13 +36,18 @@ figcaption {
 .nav {
 	word-wrap: break-word;
 	vertical-align: baseline;
+	display:flex;
+	justify-content:space-between;
 	flex-direction: row;
+	align-items: baseline;
 /*	border: 3px solid black;
 */}
 
+
 .pls {
 	vertical-align: baseline;
-	float:left;
+	flex-grow: 1;
+	/*float:left;*/
 	font-size:60px;
 /*	border: 3px solid black;
 */}	
@@ -46,49 +55,57 @@ figcaption {
 
 .navchild {
 	vertical-align: baseline;
-	float:right;
+/*	float:right;*/
 	font-size:60px;
+	flex-grow: 1;
 /*	border: 1px solid black;
 */
 }
 
-.D {vertical-align: baseline;
-	text-align: center;
-	float:center;
-	font-size:60px;
-/*	border: 3px solid black;
-*/	
-}
 
 
 .D {
+	flex-grow: 2;
 	font-size:400px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
   	text-align: center;
+  	vertical-align: baseline;
+	text-align: center;
+	float:center;
+/*	border: 3px solid black;
+*/	
+}
   }
 
   .ES { 
-  	letter-spacing:1em;
+  	flex-grow: 2;
+/*  	letter-spacing:1em;*/
   	text-align: center;
   	font-size:250px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold; 
+  	/*border: 3px solid black;*/
   }
 
  .IN {
- 	letter-spacing:.7em;
+ 	flex-grow: 2;
+/* 	letter-spacing:.7em;*/
  	font-size:200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold; 
+  	text-align: center;
+  		/*border: 3px solid black;*/
   }
 
 
 .ING {
+	flex-grow: 2;
 	font-size:150px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
   	letter-spacing:.5em;
+  	align-self: center;
   }
 
 .br {
@@ -188,7 +205,6 @@ figcaption {
     text-decoration-line:underline;
  	text-decoration-color:#CF3136;
    	text-decoration-style:thick;
-  	 text-decoration-thickness:15px;
 }
 
 .content{
@@ -296,6 +312,7 @@ p {
 	text-align: center;
 	font-size: 200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
+	border: 3px black solid;
 }
 
 .blurtext{
@@ -341,16 +358,88 @@ p {
 
 }
 
-@media screen and (max-width: 500px){ 
-  .body{ width: 100%;
+@media screen and (max-width: 550px){ 
+
+.nav {
+	display: none;
+}
+
+  .body{ width: 100vw;
+  	margin:25px;
+
   }
   .section{width: 100%;
   }
+
   .collateral{
 	flex-direction: column;
+	max-width: 300px;
 
+}
+.rightside{
+	width:100vw;
+	margin: 0%;
   }
+
+  body{
+  	margin:25px;
   }
+
+  .D {
+  	flex-grow: 2;
+	font-size:100px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+  	font-weight: bold;
+  	text-align: center;
+  	vertical-align: baseline;
+	text-align: center;
+	float:center;
+  }
+
+  .ES {
+  	font-size: 100px;
+  }
+
+  .IN{ 
+  font-size: 100px; 
+  }
+
+  .ING{ 
+  font-size: 100px; 
+  }
+
+  .SECOND{ 
+  font-size: 100px; 
+  }
+
+   .forthe{ 
+  font-size: 100px; 
+  }
+
+.third{ 
+  font-size: 100px; 
+  }
+
+  .forth{ 
+  font-size: 100px; 
+  }
+
+  .navchild{font-size: 25px;
+  }
+
+  .pls{font-size: 25px;
+  }
+
+  .colleteralchild{
+  	max-width: 100%;
+  	min-width: 200px;
+  	height: auto;
+  }
+
+  figcaption{
+  	font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+}
 	
 /*
 
@@ -369,7 +458,7 @@ right {
 .flex-container {/*display:flex;
 flex-direction: column;
 justify-content: center;*/
-text-align: center;}
+text-align: left;}
 /*.flex-container {
   display: flex;
   flex-direction: row;
