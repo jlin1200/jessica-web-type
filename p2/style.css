@@ -32,6 +32,13 @@ body{
 	color: blue;
 }
 
+.myyDiv{font-size: 80px;
+	font-family: blinds;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-variation-settings: "wght" 10;
+	color: blue;
+}
 
 
 
