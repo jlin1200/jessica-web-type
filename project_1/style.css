@@ -355,7 +355,7 @@ p {
 
 }
 
-@media screen and (max-width: 550px){ 
+@media screen and (max-width: 1000px){ 
 
 .nav {
 	display: none;
@@ -378,8 +378,12 @@ p {
 	max-width: 300px;
 
 }
+
+	.collateralchild{
+		max-width: 75vw;
+}
 .rightside{
-	width:100vw;
+	width:75vw;
 	margin: 0%;
   }
 
