@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "blinds";
+    src: url("blinds.woff2") format("woff2");
+    font-size: 60px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   font-family: 'Arial';
+   font-weight: 100;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 1.5;
+   margin: 25px 50px 75px;;
+}
+
+.blinds, .blinds *{
+   font-variation-settings: 'wght' var(--wght);
+}
+
+section{
+   margin: 3rem 0;
+}
+
+
+#intro{
+   font-family: 'blinds';
+   font-size:200px;
+   line-height: 0.9;
+   text-align: center;
+}
+
+#content{
+   font-family: 'blinds';
+   width: 33em;
+   height: 500px;
+   margin: auto;
+   --wght: 500;
+   font-variation-settings: 'wght' var(--wght);
+}
+
+#content p{
+   transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+   margin: auto;
+}
+#sliders li{
+   display: flex;
+   justify-content: center;
+}
+
+.range-name, .min, .max{
+   width: 100px;
+}
+.min{
+   text-align: right;
+}
+
+.range-name::after {
+  content: ": ";
+}
+
+input.axis-range{
+   width: 580px;
+   margin: 0 20px;
+}
+
+
+}
