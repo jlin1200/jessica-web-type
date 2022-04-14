@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: "blinds";
+    src: url("blinds.woff2") format("woff2");
+    font-size: 60px;
+}
+
+
+* {
+  font-family: "blinds";
+  margin: 0;
+}
+
+body{ 
+  filter: url(#distortionFilter);
+   font-weight: 100;
+   font-style: normal;
+   font-family: blinds;
+  text-transform: uppercase;
+   font-size: 60px;
+   line-height: 1.5;
+   margin: 50;
+     width: 100vw;
+  height: 100vw;
+  letter-spacing: 1rem;
+  background-image: repeating-radial-gradient(circle at 17% 32%, white, black 0.00085px);
+  animation: back 25s linear infinite;
+  font-variation-settings: "wght" 500;
+}
+
+#content{
+   font-family: 'blinds';
+   width:100vw;
+   margin: auto;
+   --wght: 500;
+    animation: sizechange 3.5s infinite alternate;
+    transition: all 1s;
+}
+
+
+
+@keyframes back {
+    from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 200% 200%;
+  }
+}
+
+@keyframes sizechange{
+  0% {
+    font-variation-settings: 'wght' 100;
+}
+
+100% {
+    font-variation-settings: 'wght' 400;
+}
+} 
+
+
+
+
+.blinds, .blinds *{
+   font-variation-settings: 'wght' var(--wght);
+}
+
+section{
+   margin: 3rem 0;
+}
+
+svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -9999px;
+  pointer-events: none;
+}
+
+
+
+#intro{
+   font-family: 'blinds';
+   font-size:200px;
+   line-height: 0.9;
+   text-align: center;
+}
+
+
+
+#content p{
+   transition: font-variation-settings 400ms ease-in-out;
+}
+
+
+  f
+
+
+.range-name, .min, .max{
+   width: 100px;
+}
+.min{
+   text-align: right;
+}
+
+.range-name::after {
+  content: ": ";
+}
+
+input.axis-range{
+   width: 580px;
+   margin: 0 20px;
+}
+
+
+}
