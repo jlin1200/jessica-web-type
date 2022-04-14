@@ -11,26 +11,31 @@
   margin: 0;
 }
 
+
+
 body{ 
   filter: url(#distortionFilter);
    font-weight: 100;
    font-style: normal;
    font-family: blinds;
   text-transform: uppercase;
-   font-size: 60px;
-   line-height: 1.5;
-   margin: 50;
-     width: 100vw;
-  height: 100vw;
+   font-size: 70px;
+   line-height: 1;
+   position: fixed;
+   margin-left:50px;
+   margin-right:50px;
+     width: 1366px;
+  height: 768px;
   letter-spacing: 1rem;
   background-image: repeating-radial-gradient(circle at 17% 32%, white, black 0.00085px);
   animation: back 25s linear infinite;
   font-variation-settings: "wght" 500;
 }
-
+#content1{
+  line-height: 1.25;
+}
 #content{
    font-family: 'blinds';
-   width:100vw;
    margin: auto;
    --wght: 500;
     animation: sizechange 3.5s infinite alternate;
@@ -112,5 +117,9 @@ input.axis-range{
    margin: 0 20px;
 }
 
+.darkmode{
+  background: black;
+  color: gray;
+  
 
 }
