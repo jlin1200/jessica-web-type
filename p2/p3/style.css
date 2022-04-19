@@ -5,16 +5,9 @@
     font-size: 60px;
 }
 
-
-* {
-  font-family: "blinds";
-  margin: 0;
-}
-
-
-
 body{ 
-  filter: url(#distortionFilter);
+	background-image: url("static.gif");
+  	background-repeat: repeat; 
    font-weight: 100;
    font-style: normal;
    font-family: blinds;
@@ -23,24 +16,59 @@ body{
    line-height: 1;
    position: fixed;
    margin-left:50px;
-   margin-right:50px;
-     width: 1366px;
-  height: 768px;
   letter-spacing: 1rem;
-  background-image: repeating-radial-gradient(circle at 17% 32%, white, black 0.00085px);
   animation: back 25s linear infinite;
   font-variation-settings: "wght" 500;
 }
-#content1{
-  line-height: 1.25;
-}
+
+
 #content{
-   font-family: 'blinds';
-   margin: auto;
-   --wght: 500;
-    animation: sizechange 3.5s infinite alternate;
+ 	font-size: 80px;
+	font-family: blinds;
+	text-transform: uppercase;
+	letter-spacing: 2rem;
+	font-variation-settings: "wght" 500;
+	animation: width; 
+	animation: sizechange 1.5s infinite alternate;
     transition: all 1s;
+    }
+* {
+  font-family: "blinds";
+  margin: 0;
 }
+
+
+
+h1 { 
+  text-align: center; 
+}
+
+
+br {
+  display: block;
+  margin-bottom: 2px;
+  font-size:2px;
+  line-height: 2px;
+}
+
+
+
+#text{
+  line-height: 1.25;
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+#text:hover { 
+	font-size: .4em; color: red;
+	letter-spacing:-.05px; 
+ }
+}
+
 
 
 
@@ -92,13 +120,16 @@ svg {
 }
 
 
-
 #content p{
+  /*   font-variation-settings: 'wght' var(--wght);*/
    transition: font-variation-settings 400ms ease-in-out;
 }
 
+#content1 {font-variation-settings: 'wght' var(--wght);
+}
 
-  f
+
+  
 
 
 .range-name, .min, .max{
@@ -110,7 +141,7 @@ svg {
 
 .range-name::after {
   content: ": ";
-}
+} 
 
 input.axis-range{
    width: 580px;
@@ -120,6 +151,23 @@ input.axis-range{
 .darkmode{
   background: black;
   color: gray;
-  
+  position: fixed;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   border-radius: 12px;
 
 }
+
+
+.darkmode:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px;
+
+
+
+
+.myaudio: {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     position: fixed;
+}
+
+

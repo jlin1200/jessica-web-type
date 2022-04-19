@@ -12,34 +12,41 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
 
-     <svg class="distort">
-  <filter id="distortionFilter">
-    <feTurbulence type="fractalNoise" baseFrequency="2.01 .01" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
-    <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
-  </filter>
-</svg>
-  
-
+    
   </head>
 
-  
+   
   <body>
+    <button id="darkmode">NO NOISE</button>
+        <audio id="myAudio" controls loop>
+  <source src="../static.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
     <section id="main">
-      <div class="header">
-        <p>Noise</p>
+       <h1>Noise</h1> 
+       	<!-- </center> -->
         <br>
+        <br> 
       </div>
+
       <div id="content">
         <p>A B C D E F G H I J K L M N O P Q R S T U V X Y Z</p>
         </div>
          <br>
-         <div id="content1">
-        <p>This is because our brain is hardwired to look for patterns in what we see. <!-- This brain function is actually part of our means to survive, to understand our surroundings. To recap, TV static looks like that because that's what our brains see. --></p> 
-         <button id="darkmode">NO NOISE</button>
-        <button id="darkmode">DARK MODE</button>
+         <div id="text">
+        <p>Noise, commonly known as static, white noise or static noise, in d isplayed 
+        devices, VHS tapes, analog video, radio and television, is a random dot pixel or snow pattern of static displayed when no transmission signal or being weak is obtained by the antenna receiver of television sets, flat screen televisions, radio televisions, smart televisions, CRT television sets, VHS sets and other 
+        display devices. The random pixel pattern is superimposed on the picture or the television screen, being visible as a random flicker of dots, wavy vertical lines or snow, is the result of electronic noise and radiated electromagnetic noise accidentally picked up by the antenna like air, cable, TV or CATV. This effect is most commonly seen with analog TV sets, blank VHS tapes, or other display devices.</p> 
+       
 
       </div>
     </section>
+
+ 
+    
+
+
+    
 
 
       </div>
