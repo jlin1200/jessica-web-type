@@ -8,18 +8,19 @@
 body{ 
 	background-image: url("static.gif");
   	background-repeat: repeat; 
-   font-weight: 100;
-   font-style: normal;
-   font-family: blinds;
-  text-transform: uppercase;
-   font-size: 70px;
-   line-height: 1;
-   position: fixed;
-   margin-left:50px;
-  letter-spacing: 1rem;
-  animation: back 25s linear infinite;
-  font-variation-settings: "wght" 500;
+   	font-weight: 100;
+   	font-style: normal;
+  	font-family: blinds;
+  	text-transform: uppercase;
+   	font-size: 70px;
+   	line-height: 1;
+   	position: fixed;
+   	margin-left:50px;
+  	letter-spacing: 1rem;
+  	animation: back 25s linear infinite;
+  	font-variation-settings: "wght" 500;
 }
+
 
 
 #content{
@@ -131,6 +132,31 @@ svg {
 
   
 
+#loader {
+ position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid grey;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
 
 .range-name, .min, .max{
    width: 100px;
@@ -161,13 +187,12 @@ input.axis-range{
 .darkmode:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px;
-
-
-
-
-.myaudio: {
-     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-     position: fixed;
 }
+}
+
+
+
+
+
 
 

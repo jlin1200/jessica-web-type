@@ -16,16 +16,57 @@
   </head>
 
    
-  <body>
+
+<body>
     <button id="darkmode">NO NOISE</button>
-        <audio id="myAudio" controls loop>
-  <source src="../static.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-    <section id="main">
-       <h1>Noise</h1> 
-       	<!-- </center> -->
+    <audio id="myAudio" controls loop>
+  	<source src="../static.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+
+
+<body onload="myFunction()" style="margin:50;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+ <section id="main">
+ <h1>Noise</h1> 
+  </center>
+  <div id="content">
+  <p >A B C D E F G H I J K L M N O P Q R S T U V X Y Z</p>
+</div>
         <br>
+        <div id="text">
+        <p>Noise, commonly known as static, white noise or static noise, in displayed 
+        devices, VHS tapes, analog video, radio and television, is a random dot pixel or snow pattern of static displayed when no transmission signal or being weak is obtained by the antenna receiver of television sets, flat screen televisions, radio televisions, smart televisions, CRT television sets, VHS sets and other 
+        display devices. The random pixel pattern is superimposed on the picture or the television screen, being visible as a random flicker of dots, wavy vertical lines or snow, is the result of electronic noise and radiated electromagnetic noise accidentally picked up by the antenna like air, cable, TV or CATV. This effect is most commonly seen with analog TV sets, blank VHS tapes, or other display devices.</p> 
+
+    </div>
+    </section>
+
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+      
+
+</html> 
+
+   <!--  <section id="main">
+       <h1>Noise</h1> 
+       	</center> -->
+    <!--     <br>
         <br> 
       </div>
 
@@ -41,7 +82,7 @@ Your browser does not support the audio element.
 
       </div>
     </section>
-
+ 
  
     
 
@@ -51,8 +92,5 @@ Your browser does not support the audio element.
 
       </div>
     </section>
-      
 
-  </body>
-
-</html> 
+  
