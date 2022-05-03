@@ -1,0 +1,119 @@
+[
+{
+  "location":"New York",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Los Angeles",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Chicago",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Houston",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Phoenix",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Philadelphia",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"San Antonio",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"San Diego",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Dallas",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"San Jose",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Detroit",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Jacksonville",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+{
+   "location":"Indianapolis",
+  "feels":88,
+  "humidity" :62,
+  "pressure":100,
+  "temp":83.25,
+  "high":86, 
+  "low":32
+}
+]

@@ -4,18 +4,20 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .collateral {
 /*	border: 1px solid black;*/
 	display: flex;
 	flex-direction: row;
 	max-width: 700px;
+	align-items: center;
 	}
 
 .collateralchild {
  	max-width: 300px;
 height: auto;
 	}
-
+ 
 figcaption {
  	font-family: 'Atkinson Hyperlegible', sans-serif;
   	padding: 2px;
@@ -194,7 +196,7 @@ figcaption {
 
   .fourth {
   	text-align: center;
-	font-size: 80px;
+	font-size: 60px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
   	font-weight: bold;
   	line-height: 2em;
@@ -309,10 +311,11 @@ p {
 	text-align: center;
 	font-size: 200px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
-	border: 3px black solid;
 }
 
+
 .blurtext{
+	font-size:5vw;
 	color: white;
 	word-wrap: break-word;
 	animation-name: example;
@@ -350,7 +353,9 @@ p {
 
 .colophon {font-family:'Atkinson Hyperlegible',serif;
 	font-size: 16px;
-	line-height: 22px;}
+	line-height: 22px;
+
+}
 
 
 }
@@ -362,8 +367,6 @@ p {
 }
 
   .body{ width: 100vw;
-  	margin:25px;
-
   }
 
   .sub{font-size:50px;
@@ -377,15 +380,20 @@ p {
 	flex-direction: column;
 	max-width: 300px;
 
+
 }
 
-	.collateralchild{
+.collateralchild{
 		max-width: 75vw;
 }
+
 .rightside{
 	width:75vw;
 	margin: 0%;
   }
+
+ 
+
 
   body{
   	margin:25px;
@@ -442,6 +450,7 @@ p {
   	height: auto;
   }
 
+ 
   figcaption{
   	font-family: 'Atkinson Hyperlegible', sans-serif;
   }

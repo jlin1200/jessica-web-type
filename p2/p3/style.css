@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "blinds";
     src: url("blinds.woff2") format("woff2");
@@ -93,8 +92,6 @@ br {
 } 
 
 
-
-
 .blinds, .blinds *{
    font-variation-settings: 'wght' var(--wght);
 }
@@ -129,8 +126,6 @@ svg {
 #content1 {font-variation-settings: 'wght' var(--wght);
 }
 
-
-  
 
 #loader {
  position: fixed; /* or absolute */
@@ -180,15 +175,16 @@ input.axis-range{
   position: fixed;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    border-radius: 12px;
-
 }
-
 
 .darkmode:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px;
 }
 }
+
+
+
 
 
 
