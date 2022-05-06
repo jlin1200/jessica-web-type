@@ -6,17 +6,23 @@
        	<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Energy Drink Rating</title>
        	<link rel="stylesheet" type="text/css" href="style.css">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
 
-    
+   
   </head>
 
    
 
 <body>
-  <h1> Monster Hunt </h1>
+  <h1>Monster Hunt </h1>
+  <div class="intro" style="font-weight: lighter;">
+  <p>health is a commodity. of course there are also environmental impacts, and by environmental impacts i'm also referring to racial impacts that lead to environmental impacts in terms of lack of access, and, yes, health should be public, but honestly i didn't notice the distinct lack of healthy energy drinks before. i assumed that it was common because those that were branded that way were also sold at target, but target is technically also a grocery store, and there are areas without any grocery stores (i.e. environmental racism). and convenience stores and gas stations and liquor stores only really have unhealthy energy drinks. unhealthy meaning almost every ingredient is synthetic, which, while isn't inherently a bad thing, they also contain an excess of sugar. many with nearly the daily allowance of sugar per serving or more. which, again, isn't inherently a bad thing, but an overabundance of such on a regular basis? yikes. a melding pot of problems suddenly arises. but, in addition to that, i've realized that there really is no such thing as a "healthy" energy drink. every energy drink i have ever seen or tried has had an excess of something in it. celsius is probably the most popular energy drink that's marketed as healthy, and it has 1000% of the DV of biotin, which then connects to the ploys of multi-level marketing. health is a commodity when it should be public. </p></div>
+ <div class="intro" style="font-weight: lighter;">
+<p>likewise, “capitalism breeds innovation” but that sentiment is why red bull is so easily the highest grossing energy drink: their primary competitors (monster and rockstar) have nothing on them. their originals aren’t original. and that’s only the beginning of where they fail. in addition to that, red bull is the only privately owned energy drink company. monster partnered with coca-cola in 2014, is based in california, and owns reign, burn, nos, and predator. rockstar was sold to pepsico in 2020 (who also owns pepsi (obviously), gatorade, and tropicana), and originated in san francisco, but pepsico made a deal with vitalpharmacuticals (the owner of bang) in 2020. venom is owned by the dr pepper snapple group. in short: capitalism is complicated, but also a scam.</p> </div>
+  <div class="box"></div>
+  <section>
    <div class="tab">
   <button class="tablinks" onmouseover="openCity(event, 'blue (berry)')">blue (berry)</button>
   <button class="tablinks" onmouseover="openCity(event, 'gold (pina colada)')">gold (pina colada)</button>
@@ -48,8 +54,10 @@
   <button class="tablinks" onmouseover="openCity(event, 'sparkling wild berry')">sparkling wild berry</button>
 </div>
 
+<main>
+
 <!-- <div class="box"></div> -->
-<div id="blue (berry)" class="tabcontent" class="hover-title">
+<div id="blue (berry)" class="tabcontent hover-title" style="display: block" data-rating="0.4">
   <div class="hover-image"> <img src="3d/3d-blue.png"></div> 
   <h3>blue (berry)</h3>
   <p>brand: 3D </p>
@@ -57,7 +65,7 @@
   <p> rating: 4/10</p>
 </div>
 
-<div id="gold (pina colada)" class="tabcontent" class="hover-title">
+<div id="gold (pina colada)" class="tabcontent hover-title"data-rating="0.7">
   <div class="hover-image"> <img src="3d/3d-golden.png"></div> 
   <h3>gold (pina colada)</h3>
   <p>brand: 3D </p>
@@ -65,7 +73,7 @@
   <p> rating: 7/10</p>
 </div>
 
-<div id="green (citrus)" class="tabcontent" class="hover-title">
+<div id="green (citrus)" class="tabcontent hover-title"data-rating="0.5">
   <div class="hover-image"> <img src="3d/3d-green.png"></div> 
   <h3>green (citrus)</h3>
   <p>brand: 3D </p>
@@ -73,7 +81,7 @@
   <p> rating: 5/10</p>
 </div>
 
-<div id="purple" class="tabcontent" class="hover-title">
+<div id="purple" class="tabcontent hover-title" data-rating="0.6">
   <div class="hover-image"> <img src="3d/3d-purple.png"></div> 
   <h3>purple</h3>
   <p>brand: 3D </p>
@@ -81,7 +89,7 @@
   <p>rating: 6/10</p>
 </div>
 
-<div id="red (citrus punch)" class="tabcontent" class="hover-title">
+<div id="red (citrus punch)" class="tabcontent hover-title" data-rating="0.5">
   <div class="hover-image"> <img src="3d/3d-red.png"></div> 
   <h3>red (citrus punch)</h3>
   <p>brand: 3D </p>
@@ -89,7 +97,7 @@
   <p>rating: 5/10</p>
 </div>
 
-<div id="white (frost)" class="tabcontent" class="hover-title">
+<div id="white (frost)" class="tabcontent hover-title" data-rating="0.7">
   <div class="hover-image"> <img src="3d/3d-white.png"></div> 
   <h3>white (frost)</h3>
   <p>brand: 3D </p>
@@ -97,7 +105,7 @@
   <p>rating: 7/10</p>
 </div>
 
-<div id="pomegranate" class="tabcontent" class="hover-title">
+<div id="pomegranate" class="tabcontent hover-title" data-rating="0">
   <div class="hover-image"> <img src="5 hr/pomegrante.png"></div> 
   <h3>pomegranate</h3>
   <p>brand: 5-hour energy </p>
@@ -105,7 +113,7 @@
   <p>rating: 0/10</p>
 </div>
 
-<div id="tropical burst" class="tabcontent" class="hover-title">
+<div id="tropical burst" class="tabcontent hover-title"data-rating="0">
   <div class="hover-image"> <img src="5 hr/tropical burst.png"></div> 
   <h3>tropical burst</h3>
   <p>brand: 5-hour energy </p>
@@ -114,7 +122,7 @@
 </div>
 
 
-<div id="açaí berry" class="tabcontent" class="hover-title">
+<div id="açaí berry" class="tabcontent hover-title"data-rating="0.4">
   <div class="hover-image"> <img src="adrenaline shock/acai berry.png"></div> 
   <h3>açaí berry</h3>
   <p>brand: adrenaline shock </p>
@@ -123,7 +131,7 @@
   <p>rating: 4/10</p>
 </div>
 
-<div id="fruit punch" class="tabcontent" class="hover-title">
+<div id="fruit punch" class="tabcontent hover-title"data-rating="0.3">
   <div class="hover-image"> <img src="adrenaline shock/fruit punch.png"></div> 
   <h3>tropical burst</h3>
   <p>brand: adrenaline shock </p>
@@ -131,7 +139,7 @@
   <p>rating: 3/10</p>
 </div>
 
-<div id="mimosa" class="tabcontent" class="hover-title">
+<div id="mimosa" class="tabcontent hover-title"data-rating="0.2">
   <div class="hover-image"> <img src="alani nu/mimosa.png"></div> 
   <h3>mimosa</h3>
   <p>brand: alani nu </p>
@@ -139,7 +147,7 @@
   <p>rating: 2/10</p>
 </div>
 
-<div id="watermelon wave" class="tabcontent" class="hover-title">
+<div id="watermelon wave" class="tabcontent hover-title"data-rating="0.2">
   <div class="hover-image"> <img src="alani nu/watermelon wave.png"></div> 
   <h3>watermelon wave</h3>
   <p>brand: alani nu </p>
@@ -147,7 +155,7 @@
   <p>rating: 2/10</p>
 </div>
 
-<div id="cucumber mint" class="tabcontent" class="hover-title">
+<div id="cucumber mint" class="tabcontent hover-title"data-rating="0.6">
   <div class="hover-image"> <img src="ardor/cucumber mint.png"></div> 
   <h3>cucumber mint</h3>
   <p>brand: ardor </p>
@@ -155,7 +163,7 @@
   <p>rating: 6/10</p>
 </div>
 
-<div id="mexican lime" class="tabcontent" class="hover-title">
+<div id="mexican lime" class="tabcontent hover-title"data-rating="0.7">
   <div class="hover-image"> <img src="ardor/mexican lime.png"></div> 
   <h3>cucumber mint</h3>
   <p>brand: ardor </p>
@@ -163,7 +171,7 @@
   <p>rating: 7/10</p>
 </div>
 
-<div id="pink grapefruit" class="tabcontent" class="hover-title">
+<div id="pink grapefruit" class="tabcontent hover-title"data-rating="0.9">
   <div class="hover-image"> <img src="ardor/pink grapefruit.png"></div> 
   <h3>pink grapefruit</h3>
   <p>brand: ardor </p>
@@ -171,22 +179,22 @@
   <p>rating: 9/10</p>
 </div>
 
-<div id="blue razz" class="tabcontent" class="hover-title">
+<div id="blue razz" class="tabcontent hover-title"data-rating="0.2">
   <div class="hover-image"> <img src="bang/blue razz.png"></div> 
   <h3>blue razz</h3>
   <p>brand: bang </p>
   <p>really sweet, not amazing, and also not super memorable, and it was disgusting. in addition to that bang is problematic as heck. like. genuinely scarily problematic. ignoring all the political aspects and whatnot (which is not something i'd typically say which really goes to show how problematic bang is), they act as though this "super creatine" is something that is unique to them, and, while it's true that there have been studies done on how creatine is beneficial (primarily in terms of power output), “super creatine” isn’t actually enough creatine to have any effect. also you’d have to take a certain amount daily for it to have an effect and for you muscles to be saturated enough to even Appear to have an effect. so. um. yeah. even going further and ignoring how misleading that is: the amount of creatine that's recommended as a supplement is 3-5g. the amount of super creatine in bang energy is estimated to be around 25mg. so. again. uhhhhhh. but yuh that is just the tip of the iceberg of bold scientific claims </p>
   <p>rating: 2/10</p>
 </div>
-<div id="cotton candy" class="tabcontent" class="hover-title">
-  <div class="hover-image"> <img src="bang/cotton candy.png"></div> 
+<div id="cotton candy" class="tabcontent hover-title" data-rating="0.6">
+  <div class="hover-image"> <img src="bang/cotton candy.png"></div>
   <h3>cotton candy</h3>
   <p>brand: bang </p>
   <p>okay literally all the can designs are super ugly and the flavors are wack but they’re not bad i guess? thus far they’re all just eh. also i’ve never actually bought a bang i’ve just tried it from over people and i will never pay for this myself. it reminds me of bubbline though which i like</p>
   <p>rating: 6/10</p>
 </div>
 
-<div id="purple haze" class="tabcontent" class="hover-title">
+<div id="purple haze" class="tabcontent hover-title"data-rating="0.4">
   <div class="hover-image"> <img src="bang/purple haze.png"></div> 
   <h3>purple haze</h3>
   <p>brand: bang </p>
@@ -194,7 +202,7 @@
   <p>rating: 4/10</p>
 </div>
 
-<div id="rainbow unicorn" class="tabcontent" class="hover-title">
+<div id="rainbow unicorn" class="tabcontent hover-title"data-rating="0.6">
   <div class="hover-image"> <img src="bang/rainbow unicorn.png"></div> 
   <h3>rainbow unicorn</h3>
   <p>brand: bang </p>
@@ -202,7 +210,7 @@
   <p>rating: 6/10</p>
 </div>
 
-<div id="honey" class="tabcontent" class="hover-title">
+<div id="honey" class="tabcontent hover-title"data-rating="0.7">
   <div class="hover-image"> <img src="beebad/honey.png"></div> 
   <h3>honey</h3>
   <p>brand: beebad </p>
@@ -210,7 +218,7 @@
   <p>rating: 7/10</p>
 </div>
 
-<div id="peach mango green tea" class="tabcontent" class="hover-title">
+<div id="peach mango green tea" class="tabcontent hover-title"data-rating="0.3">
   <div class="hover-image"> <img src="celsius/peach mango green tea.png"></div> 
   <h3>peach mango green tea</h3>
   <p>brand: celsius </p>
@@ -218,7 +226,7 @@
   <p>rating: 3/10</p>
 </div>
 
-<div id="raspberry acai green tea" class="tabcontent" class="hover-title">
+<div id="raspberry acai green tea" class="tabcontent hover-title"data-rating="0.4">
   <div class="hover-image"> <img src="celsius/raspberry acai green tea.png"></div> 
   <h3>raspberry acai green tea</h3>
   <p>brand: celsius </p>
@@ -226,7 +234,7 @@
   <p>rating: 4/10</p>
 </div>
 
-<div id="sparkling grapefruit" class="tabcontent" class="hover-title">
+<div id="sparkling grapefruit" class="tabcontent hover-title"data-rating="0.7">
   <div class="hover-image"> <img src="celsius/sparkling grapefruit.png"></div> 
   <h3>sparkling grapefruit</h3>
   <p>brand: celsius </p>
@@ -234,7 +242,7 @@
   <p>rating: 7/10</p>
 </div>
 
-<div id="sparkling kiwi guava" class="tabcontent" class="hover-title">
+<div id="sparkling kiwi guava" class="tabcontent hover-title"data-rating="0.4">
   <div class="hover-image"> <img src="celsius/sparkling kiwi guava.png"></div> 
   <h3>sparkling kiwi guava</h3>
   <p>brand: celsius </p>
@@ -242,7 +250,7 @@
   <p>rating: 4/10</p>
 </div>
 
-<div id="sparkling orange" class="tabcontent" class="hover-title">
+<div id="sparkling orange" class="tabcontent hover-title"data-rating="0.6">
   <div class="hover-image"> <img src="celsius/sparkling orange.png"></div> 
   <h3>sparkling orange</h3>
   <p>brand: celsius </p>
@@ -250,7 +258,7 @@
   <p>rating: 6/10</p>
 </div>
 
-<div id="sparkling orange pomegranate" class="tabcontent" class="hover-title">
+<div id="sparkling orange pomegranate" class="tabcontent hover-title" data-rating="0">
   <div class="hover-image"> <img src="celsius/sparkling orange pomegranate.png"></div> 
   <h3>sparkling orange pomegranate</h3>
   <p>brand: celsius </p>
@@ -258,7 +266,7 @@
   <p>rating: 0/10</p>
 </div>
 
-<div id="sparkling watermelon" class="tabcontent" class="hover-title">
+<div id="sparkling watermelon" class="tabcontent hover-title" data-rating="0.4">
   <div class="hover-image"> <img src="celsius/sparkling watermelon.png"></div> 
   <h3>sparkling watermelon</h3>
   <p>brand: celsius </p>
@@ -266,13 +274,17 @@
   <p>rating: 4/10</p>
 </div>
 
-<div id="sparkling wild berry" class="tabcontent" class="hover-title">
-  <div class="hover-image"> <img src="celsius/sparkling wild berry.png"></div> 
+<div id="sparkling wild berry" class="tabcontent hover-title"data-rating="0.6">
+  <div class="hover-image"> <img src="celsius/sparkling wild berry.png"> </div> 
   <h3>sparkling wild berry</h3>
   <p>brand: celsius </p>
   <p>this tastes like the powdered vitamin emergenc stuff. i like the fizz but the taste is kinda just eh. however. compared to the other celsius's this isn’t complete shit</p>
   <p>rating: 6/10</p>
 </div>
+
+</main>
+
+</section>
 
 </body>
       

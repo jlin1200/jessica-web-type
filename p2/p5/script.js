@@ -19,13 +19,24 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-/*$('.hover-title').click(function(){
-    let key = parseInt( $(this).attr('id') );
+$(document).ready(function(){
 
-    let rating = eval( reviews[key]["rating"] );
+	$('.hover-title').click( function(){
+	    let rating = $(this).attr('data-rating');
 
-    console.log(rating * 100);
-    $('.box').css({
-        'height': rating * 100 + 'vh'
-      });
-*/
+	    console.log(rating);
+	    
+	    $('.box').css({
+	        'height': rating * 100 + 'vh'
+	      });
+	});
+  $("h3").hover(function(){
+    $(this).css("color", "grey");
+    }, function(){
+    $(this).css("color", "black");
+  });
+  });
+
+
+
+
