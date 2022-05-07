@@ -23,19 +23,17 @@ $(document).ready(function(){
 
 	$('.hover-title').click( function(){
 	    let rating = $(this).attr('data-rating');
+      let drinkColor = $(this).attr('data-color')
 
 	    console.log(rating);
 	    
 	    $('.box').css({
-	        'height': rating * 100 + 'vh'
+	        'height': rating * 100 + 'vh',
+          'background': drinkColor
 	      });
 	});
-  $("h3").hover(function(){
-    $(this).css("color", "grey");
-    }, function(){
-    $(this).css("color", "black");
   });
-  });
+
 
 
 
