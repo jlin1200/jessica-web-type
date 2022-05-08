@@ -94,12 +94,7 @@ body {
 
 /* Style the tab content */
 
-.img{  
-	border:1px red solid;
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
+ 
 
 .drink-container {
     display: flex;
@@ -123,7 +118,7 @@ body {
 .intro {
  float: left;
   width: 20%;
- padding-left: : 80px;
+ padding-left: 80px;
  padding: 10px;
   height: 300px;
 }
@@ -153,13 +148,14 @@ body {
 
 section{
 	display: flex;
-	padding: 10px;
+	font-size: 18px;
 }
 
 main{
 	border: 1px solid #ccc;
 	padding: 20px;
-  width: 40vw;
+  width: 60vw;
+  font-size: 15px;
 }
 
 
@@ -184,7 +180,7 @@ body {
   background-color: #F5F5F5;
   font-family: "Degular", Degular, serif;
   font-weight: 400;
-  padding: 40px;
+  padding: 20px;
 }
 .tab {
   overflow: scroll;
@@ -192,7 +188,7 @@ body {
   font-weight: 600;
   /*border: 1px solid #ccc;*/
   background-color: #f1f1f1;
-  width: 40%;
+  width: 30%;
   height: 700px;
   flex: none;
 }
@@ -242,5 +238,10 @@ body {
   background: red;
   opacity: 50%;
   z-index: -1;
+}
+img{  
+    object-fit: contain;
+    object-position: center;
+    width: 75%;
 }
 }
