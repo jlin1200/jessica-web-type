@@ -95,7 +95,10 @@ body {
 /* Style the tab content */
 
 .img{  
-    width: 30%;
+	border:1px red solid;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .drink-container {
