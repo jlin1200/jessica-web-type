@@ -242,6 +242,7 @@ body {
 img{  
     object-fit: contain;
     object-position: center;
+    margin-left: 40px;
     width: 75%;
 }
 }
