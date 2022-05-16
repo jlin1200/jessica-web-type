@@ -188,6 +188,9 @@ body {
   font-weight: 400;
   padding: 20px;
 }
+.drink-info {
+  z-index: 3;
+}
 
 .box {
   position: fixed;
@@ -198,7 +201,7 @@ body {
   transition: height 500ms linear;
   background: red;
   opacity: 50%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .tab {
@@ -210,6 +213,7 @@ body {
   width: 30%;
   height: 700px;
   flex: none;
+  z-index:1;
 }
 
 /* Style the buttons that are used to open the tab content */

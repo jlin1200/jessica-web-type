@@ -1,0 +1,409 @@
+
+@media screen and (min-width: 70rem) {
+@font-face {
+    font-family: "blinds";
+    src: url("blinds.woff2") format("woff2");
+    font-size: 60px;
+}
+
+@font-face {
+    font-family: "paralucent";
+    font-family:"mywebfont";
+    src: url('mywebfont.woff2') format('woff2');
+}
+
+
+main{
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+  margin: 150px;
+     background: black;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color:white;
+
+}
+
+#weight{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght' 100;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+#twowght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+  font-variation-settings: 'wght'  200;
+  background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+
+#threewght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght'  300;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+}
+
+#fourwght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-weight: 400;
+   font-variation-settings: 'wght' 400;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+#fivewght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght'500;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+/*body{
+   font-family: 'Arial';
+   font-weight: 100;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 1.5;
+   margin: 25px 50px 75px;;
+}*/
+
+.blinds, .blinds *{
+   font-variation-settings: 'wght' var(--wght);
+}
+
+
+
+section{
+   margin: 3rem 0;
+}
+
+
+#intro{
+   font-family: 'blinds';
+   font-size:200px;
+   line-height: 0.9;
+   text-align: center;
+}
+
+#content{
+   font-family: 'blinds';
+   font-size: 80px;
+   width: 33em;
+   height: 200px;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   margin: auto;
+   --wght: 500;
+   font-variation-settings: 'wght' var(--wght);
+}
+
+#content p{
+   transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+   margin: auto;
+}
+#sliders li{
+   display: flex;
+   justify-content: center;
+}
+
+
+.range-name, .min, .max{
+   width: 100px;
+}
+.min{
+   text-align: right;
+}
+
+.range-name::after {
+  content: ": ";
+}
+
+
+input.axis-range{
+   width: 580px;
+   margin: 0 20px;
+}
+
+.tab {
+  font-weight: 600;
+  /*border: 1px solid #ccc;*/
+  background-color: #f1f1f1;
+ color:white;
+  width: 8%;
+  height: 300px;
+  flex: none;
+  position: absolute;
+  right:0px;
+  top:30px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: "paralucent", paralucent, serif;
+  font-weight: 100;
+}
+}
+
+
+@media screen and (min-width: 20rem) {
+  @font-face {
+    font-family: "blinds";
+    src: url("blinds.woff2") format("woff2");
+    font-size: 60px;
+}
+
+@font-face {
+    font-family: "paralucent";
+    font-family:"mywebfont";
+    src: url('mywebfont.woff2') format('woff2');
+}
+
+
+main{
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+  margin: 150px;
+     background: black;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color:white;
+
+}
+
+#weight{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght' 100;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+#twowght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+  font-variation-settings: 'wght'  200;
+  background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+
+#threewght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght'  300;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+}
+
+#fourwght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-weight: 400;
+   font-variation-settings: 'wght' 400;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+#fivewght{ 
+  font-family: 'blinds';
+  text-transform: uppercase;
+   font-size: 30px;
+   width: 33em;
+   height: 500px;
+   font-variation-settings: 'wght'500;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+/*body{
+   font-family: 'Arial';
+   font-weight: 100;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 1.5;
+   margin: 25px 50px 75px;;
+}*/
+
+.blinds, .blinds *{
+   font-variation-settings: 'wght' var(--wght);
+}
+
+
+
+section{
+   margin: 3rem 0;
+}
+
+
+#intro{
+   font-family: 'blinds';
+   font-size:200px;
+   line-height: 0.9;
+   text-align: center;
+}
+
+#content{
+   font-family: 'blinds';
+   font-size: 80px;
+   width: 33em;
+   height: 200px;
+   background: linear-gradient(to right, #f6f6f6, #fdf151, #69e8fc, #69e8fc, #ea4ef7, #eb3a24, #0026f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   margin: auto;
+   --wght: 500;
+   font-variation-settings: 'wght' var(--wght);
+}
+
+#content p{
+   transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+   margin: auto;
+}
+#sliders li{
+   display: flex;
+   justify-content: center;
+}
+
+
+.range-name, .min, .max{
+   width: 100px;
+}
+.min{
+   text-align: right;
+}
+
+.range-name::after {
+  content: ": ";
+}
+
+
+input.axis-range{
+   width: 580px;
+   margin: 0 20px;
+}
+
+.tab {
+  font-weight: 600;
+  /*border: 1px solid #ccc;*/
+  background-color: #f1f1f1;
+ color:white;
+  width: 8%;
+  height: 300px;
+  flex: none;
+  position: absolute;
+  right:0px;
+  top:30px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: "paralucent", paralucent, serif;
+  font-weight: 100;
+}
+
+ 
+
