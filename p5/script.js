@@ -17,11 +17,21 @@ function openCity(evt, cityName) {
   // Show the current tab, and add an "active" class to the link that opened the tab
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+    /*let rating = $(this).attr('data-rating');*/
+    let rating = evt.currentTarget.getAttribute("data-rating"); 
+      let drinkColor =evt.currentTarget.getAttribute("data-color")
+
+      console.log(rating);
+      
+      $('.box').css({
+          'height': rating * 100 + 'vh',
+          'background': drinkColor
+        });
 }
 
 $(document).ready(function(){
 
-	$('.hover-title').click( function(){
+	$('.tablinks').click( function(){
 	    let rating = $(this).attr('data-rating');
       let drinkColor = $(this).attr('data-color')
 
